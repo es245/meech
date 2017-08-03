@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+.center-text{
+  text-align: center;
+}
+
 .padding-up-down{
   padding: 15px 0 10px;
 }
@@ -29,6 +33,14 @@
 .super-padded-sides{
   padding: 0 15%;
 }
+
+.peach{
+  background-color: #FCE4D8;
+}
+
+.img-round{
+  border-radius: 50%;
+}
 /* ---- Helpers End ---- */
 
 h1{
@@ -43,7 +55,6 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100%;
-  background: #eeeeee;
 }
 
 
@@ -60,15 +71,15 @@ nav{
 
 nav ul a{
   font-family: 'Poppins';
-  font-size: 20px;
-  font-weight: 500;
-  color: #ad1457 !important;
+  font-size: 18px;
+  font-weight: 400;
+  color: #212121 !important;
 }
 
 #logo{
   font-family: 'Abril Fatface', serif;
   font-size: 35px;
-  color: #ad1457 ;
+  color: #212121 ;
   padding: 0 15px;
 }
 
@@ -96,16 +107,24 @@ nav ul a{
 }
 /*---Main End---*/
 
-#about{
+#divider{
   height: 200px;
+}
+
+#about{
+  padding-top: 150px;
 }
 
 .profile-pic{
   background: #fff;
   border-radius: 50%;
-  border: 20px solid #ffab91;
+  border: 20px solid #ffccbc;
   position: relative;
   top: 15%;
+}
+
+.round-card-img{
+  border: 15px #ffccbc solid;
 }
 
 @media only screen and (max-width: 900px) {
