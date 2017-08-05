@@ -34,13 +34,20 @@
   padding: 0 15%;
 }
 
+.super-padding{
+  padding-top: 150px;
+  padding-bottom: 50px
+}
+
 .peach{
-  background-color: #FCE4D8;
+  background-color: #ffab91;
 }
 
 .img-round{
   border-radius: 50%;
 }
+
+
 /* ---- Helpers End ---- */
 
 h1{
@@ -73,13 +80,13 @@ nav ul a{
   font-family: 'Poppins';
   font-size: 18px;
   font-weight: 400;
-  color: #212121 !important;
+  color: #333 !important;
 }
 
 #logo{
   font-family: 'Abril Fatface', serif;
   font-size: 35px;
-  color: #212121 ;
+  color: #333 ;
   padding: 0 15px;
 }
 
@@ -96,36 +103,39 @@ nav ul a{
   transform: translateY(-45%);
 }
 
-#main-content h1{
+.title{
   font-family: 'Abril Fatface';
 }
 
-#main p{
-  font-size: 20px;
+.paragraph{
   font-family: 'Poppins';
   font-weight: 400;
 }
 /*---Main End---*/
 
 #divider{
-  height: 200px;
+  height: 150px;
 }
 
-#about{
-  padding-top: 150px;
+.divider-img{
+  background: #ffab91;
+  border-radius: 50%;
+  border: 20px solid #ffab91;
+  position: relative;
+  top: 23%;
+  width: 200px;
+}
+
+.round-card-img{
+  border: 15px #ffab91 solid;
 }
 
 .profile-pic{
   background: #fff;
-  border-radius: 50%;
-  border: 20px solid #ffccbc;
-  position: relative;
-  top: 15%;
+  width: 300px;
 }
 
-.round-card-img{
-  border: 15px #ffccbc solid;
-}
+
 
 @media only screen and (max-width: 900px) {
   .link-box{
